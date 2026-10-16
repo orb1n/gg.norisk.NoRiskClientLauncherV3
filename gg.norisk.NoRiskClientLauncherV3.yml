@@ -13,8 +13,7 @@ finish-args:
   - --socket=x11
   - --socket=pulseaudio
   - --device=dri
-  - --env=WEBKIT_DISABLE_DMABUF_RENDERER=1
-  - --env=WEBKIT_DISABLE_COMPOSITING_MODE=1
+  - --env=__NV_DISABLE_EXPLICIT_SYNC=1
   # For discord RPC
   # Flatpak discord
   - --filesystem=xdg-run/app/com.discordapp.Discord:rw
